@@ -4,7 +4,7 @@ s2 = s2.toLowerCase();
 
 for(let i=0; i<s1.length; i++){
     let s = "";
-    for(let j=i; j<=s2.length+i; j++){
+    for(let j=i; j<s2.length+i; j++){
         s = s + s1.charAt(j);
     }
     if(s==s2){
